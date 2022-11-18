@@ -1,0 +1,72 @@
+ALGORITHM Dot.Product
+VAR
+
+array_name : ARRAY_OF INTEGER[v1][v2];
+v1 , v2
+v1(a,b,c) v2(x,y,z) ; INTEGER
+
+
+BEGIN
+
+a : ARRAY_OF FLOAT[v1][v2];
+FOR i FROM 0 TO M-1 DO
+ // Compute dot product of row i and column j
+            c[v1][v2] := [a]*[x] + [b]*[y] [c]*[z];
+        END_FOR
+        let the orthogonal := //v2// - //v1// 
+        := //v1//² + //v1//²
+        :=(-2) //v1// + //v2// * x cos x
+
+donner x ==> 0 
+// Compute dot product of row i and column j
+R1 = v1 ( a,b,c)² :=  √(a+b+c)²
+R2 := v2 := √( x+y+z)²
+orthogonal:= [R1]+[R2] -2 * [dot] * [cos x]
+END_FOR
+
+
+
+
+
+
+task n 2
+
+
+ALGORITHM Dot.PRoduct
+VAR
+  tab: ARRAY_OF type [5]
+  i,j;k;l;o;u; INTEGER
+
+BEGIN
+    FOR i FROM 0 TO 4 DO
+    
+    Read(tab[i]);
+
+END_FOR
+
+  Write("1");
+Read(elt);
+Write("left");
+Read(pos);
+  Write("10");
+Read(elt);
+Write("left");
+Read(pos);
+  Write("0");
+Read(elt);
+Write("middle");
+Read(pos);
+  Write(" 4");
+Read(elt);
+Write(right");
+Read(pos);
+pick x := 0 
+translate FROM right to left 
+pick := 1
+translate FROM  left to right
+pick := 4 
+translate FROM right to left 
+pick := 10 
+translate FROM  left to right 
+
+END_FOR
